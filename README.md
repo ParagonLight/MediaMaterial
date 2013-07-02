@@ -31,11 +31,3 @@ Add moviePlayer to the main view as a subView
 
 Then set to fullScreen with an animation
 [moviePlayer setFullscreen:YES animated:YES];
-
-
-
-MusicPlayer这个app主要用的是AVFoundation这个framwork里的AVPlayer
-
-每一首歌是以AVPlayerItem存在的。具体怎么获取资源，同样都是可以根据NSURL来的
-
-audioPlayer加载了item后，就直接通过play方法来播放歌曲了。
