@@ -21,11 +21,10 @@
 		1855A30F17403381002EB2C7 /* pause_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1855A30717403381002EB2C7 /* pause_button@2x.png */; };
 		1855A31017403381002EB2C7 /* play_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 1855A30817403381002EB2C7 /* play_button.png */; };
 		1855A31117403381002EB2C7 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1855A30917403381002EB2C7 /* play_button@2x.png */; };
-		186549BF174227A500A8E427 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186549BE174227A500A8E427 /* MediaPlayer.framework */; };
 		186A8E8D17422FD300DFAB74 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A8E8C17422FD300DFAB74 /* MVViewController.m */; };
 		186A8E8F1742366B00DFAB74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186A8E8E1742366B00DFAB74 /* AVFoundation.framework */; };
-		186A8E931742398200DFAB74 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186A8E921742398200DFAB74 /* CoreMedia.framework */; };
 		740F3B881774B17B0048A83C /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 740F3B871774B17B0048A83C /* music.mp3 */; };
+		747EC08F1778348D00E10214 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747EC08E1778348D00E10214 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,13 +46,11 @@
 		1855A30717403381002EB2C7 /* pause_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause_button@2x.png"; sourceTree = "<group>"; };
 		1855A30817403381002EB2C7 /* play_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play_button.png; sourceTree = "<group>"; };
 		1855A30917403381002EB2C7 /* play_button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play_button@2x.png"; sourceTree = "<group>"; };
-		186549BE174227A500A8E427 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		186A8E8B17422FD300DFAB74 /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
 		186A8E8C17422FD300DFAB74 /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
 		186A8E8E1742366B00DFAB74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		186A8E90174238BB00DFAB74 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		186A8E921742398200DFAB74 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		740F3B871774B17B0048A83C /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		747EC08E1778348D00E10214 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +58,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				186A8E931742398200DFAB74 /* CoreMedia.framework in Frameworks */,
+				747EC08F1778348D00E10214 /* CoreMedia.framework in Frameworks */,
 				186A8E8F1742366B00DFAB74 /* AVFoundation.framework in Frameworks */,
-				186549BF174227A500A8E427 /* MediaPlayer.framework in Frameworks */,
 				1855A2E217401ECE002EB2C7 /* UIKit.framework in Frameworks */,
 				1855A2E417401ECE002EB2C7 /* Foundation.framework in Frameworks */,
 				1855A2E617401ECE002EB2C7 /* CoreGraphics.framework in Frameworks */,
@@ -76,10 +72,8 @@
 		1855A2D517401ECE002EB2C7 = {
 			isa = PBXGroup;
 			children = (
-				186A8E921742398200DFAB74 /* CoreMedia.framework */,
-				186A8E90174238BB00DFAB74 /* AudioToolbox.framework */,
+				747EC08E1778348D00E10214 /* CoreMedia.framework */,
 				186A8E8E1742366B00DFAB74 /* AVFoundation.framework */,
-				186549BE174227A500A8E427 /* MediaPlayer.framework */,
 				1855A2E717401ECE002EB2C7 /* MusicPlayer */,
 				1855A2E017401ECE002EB2C7 /* Frameworks */,
 				1855A2DF17401ECE002EB2C7 /* Products */,
