@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7102019617DA375B005FDE3E /* AddURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7102019517DA375B005FDE3E /* AddURLViewController.m */; };
+		71CA9BDE17D9A7E80094CFC9 /* LocalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA9BDD17D9A7E80094CFC9 /* LocalTableViewController.m */; };
+		71CA9BE517D9A83E0094CFC9 /* movie6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BDF17D9A83E0094CFC9 /* movie6.mp4 */; };
+		71CA9BE617D9A83E0094CFC9 /* movie5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BE017D9A83E0094CFC9 /* movie5.mp4 */; };
+		71CA9BE717D9A83E0094CFC9 /* movie4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BE117D9A83E0094CFC9 /* movie4.mp4 */; };
+		71CA9BE817D9A83E0094CFC9 /* movie3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BE217D9A83E0094CFC9 /* movie3.mp4 */; };
+		71CA9BE917D9A83E0094CFC9 /* movie2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BE317D9A83E0094CFC9 /* movie2.mp4 */; };
+		71CA9BEA17D9A83E0094CFC9 /* movie1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BE417D9A83E0094CFC9 /* movie1.mp4 */; };
+		71CA9BEE17D9AC640094CFC9 /* ParagonNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA9BED17D9AC640094CFC9 /* ParagonNaviViewController.m */; };
+		71CA9BF117D9C2C10094CFC9 /* RemoteTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA9BF017D9C2C10094CFC9 /* RemoteTableViewController.m */; };
 		746A4D741774A46000C7CE80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746A4D731774A45F00C7CE80 /* UIKit.framework */; };
 		746A4D761774A46000C7CE80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746A4D751774A46000C7CE80 /* Foundation.framework */; };
 		746A4D781774A46000C7CE80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746A4D771774A46000C7CE80 /* CoreGraphics.framework */; };
@@ -24,8 +34,8 @@
 		746A4DA21774A46000C7CE80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 746A4DA01774A46000C7CE80 /* InfoPlist.strings */; };
 		746A4DA51774A46000C7CE80 /* VideoPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746A4DA41774A46000C7CE80 /* VideoPlayerTests.m */; };
 		746A4DAF1774A49F00C7CE80 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746A4DAE1774A49F00C7CE80 /* MediaPlayer.framework */; };
-		746A4DB11774A5AB00C7CE80 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 746A4DB01774A5AA00C7CE80 /* movie.mp4 */; };
-		746A4DB21774A5AB00C7CE80 /* movie.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 746A4DB01774A5AA00C7CE80 /* movie.mp4 */; };
+		746A4DB11774A5AB00C7CE80 /* movie0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 746A4DB01774A5AA00C7CE80 /* movie0.mp4 */; };
+		746A4DB21774A5AB00C7CE80 /* movie0.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 746A4DB01774A5AA00C7CE80 /* movie0.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +49,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7102019417DA375B005FDE3E /* AddURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddURLViewController.h; sourceTree = "<group>"; };
+		7102019517DA375B005FDE3E /* AddURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddURLViewController.m; sourceTree = "<group>"; };
+		71CA9BDC17D9A7E80094CFC9 /* LocalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalTableViewController.h; sourceTree = "<group>"; };
+		71CA9BDD17D9A7E80094CFC9 /* LocalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalTableViewController.m; sourceTree = "<group>"; };
+		71CA9BDF17D9A83E0094CFC9 /* movie6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie6.mp4; sourceTree = "<group>"; };
+		71CA9BE017D9A83E0094CFC9 /* movie5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie5.mp4; sourceTree = "<group>"; };
+		71CA9BE117D9A83E0094CFC9 /* movie4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie4.mp4; sourceTree = "<group>"; };
+		71CA9BE217D9A83E0094CFC9 /* movie3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie3.mp4; sourceTree = "<group>"; };
+		71CA9BE317D9A83E0094CFC9 /* movie2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie2.mp4; sourceTree = "<group>"; };
+		71CA9BE417D9A83E0094CFC9 /* movie1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie1.mp4; sourceTree = "<group>"; };
+		71CA9BEC17D9AC640094CFC9 /* ParagonNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParagonNaviViewController.h; sourceTree = "<group>"; };
+		71CA9BED17D9AC640094CFC9 /* ParagonNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParagonNaviViewController.m; sourceTree = "<group>"; };
+		71CA9BEF17D9C2C10094CFC9 /* RemoteTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteTableViewController.h; sourceTree = "<group>"; };
+		71CA9BF017D9C2C10094CFC9 /* RemoteTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteTableViewController.m; sourceTree = "<group>"; };
 		746A4D701774A45F00C7CE80 /* VideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A4D731774A45F00C7CE80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		746A4D751774A46000C7CE80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +86,7 @@
 		746A4DA31774A46000C7CE80 /* VideoPlayerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoPlayerTests.h; sourceTree = "<group>"; };
 		746A4DA41774A46000C7CE80 /* VideoPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerTests.m; sourceTree = "<group>"; };
 		746A4DAE1774A49F00C7CE80 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		746A4DB01774A5AA00C7CE80 /* movie.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie.mp4; sourceTree = "<group>"; };
+		746A4DB01774A5AA00C7CE80 /* movie0.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie0.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +114,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71CA9BEB17D9A88F0094CFC9 /* Media Sources */ = {
+			isa = PBXGroup;
+			children = (
+				71CA9BDF17D9A83E0094CFC9 /* movie6.mp4 */,
+				71CA9BE017D9A83E0094CFC9 /* movie5.mp4 */,
+				71CA9BE117D9A83E0094CFC9 /* movie4.mp4 */,
+				71CA9BE217D9A83E0094CFC9 /* movie3.mp4 */,
+				71CA9BE317D9A83E0094CFC9 /* movie2.mp4 */,
+				71CA9BE417D9A83E0094CFC9 /* movie1.mp4 */,
+				746A4DB01774A5AA00C7CE80 /* movie0.mp4 */,
+			);
+			name = "Media Sources";
+			sourceTree = "<group>";
+		};
 		746A4D671774A45F00C7CE80 = {
 			isa = PBXGroup;
 			children = (
@@ -124,7 +162,15 @@
 		746A4D791774A46000C7CE80 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				746A4DB01774A5AA00C7CE80 /* movie.mp4 */,
+				71CA9BEB17D9A88F0094CFC9 /* Media Sources */,
+				71CA9BEC17D9AC640094CFC9 /* ParagonNaviViewController.h */,
+				71CA9BED17D9AC640094CFC9 /* ParagonNaviViewController.m */,
+				7102019417DA375B005FDE3E /* AddURLViewController.h */,
+				7102019517DA375B005FDE3E /* AddURLViewController.m */,
+				71CA9BDC17D9A7E80094CFC9 /* LocalTableViewController.h */,
+				71CA9BDD17D9A7E80094CFC9 /* LocalTableViewController.m */,
+				71CA9BEF17D9C2C10094CFC9 /* RemoteTableViewController.h */,
+				71CA9BF017D9C2C10094CFC9 /* RemoteTableViewController.m */,
 				746A4D821774A46000C7CE80 /* ParagonAppDelegate.h */,
 				746A4D831774A46000C7CE80 /* ParagonAppDelegate.m */,
 				746A4D8B1774A46000C7CE80 /* MainStoryboard.storyboard */,
@@ -243,9 +289,15 @@
 				746A4D7E1774A46000C7CE80 /* InfoPlist.strings in Resources */,
 				746A4D861774A46000C7CE80 /* Default.png in Resources */,
 				746A4D881774A46000C7CE80 /* Default@2x.png in Resources */,
+				71CA9BE717D9A83E0094CFC9 /* movie4.mp4 in Resources */,
 				746A4D8A1774A46000C7CE80 /* Default-568h@2x.png in Resources */,
+				71CA9BE917D9A83E0094CFC9 /* movie2.mp4 in Resources */,
+				71CA9BEA17D9A83E0094CFC9 /* movie1.mp4 in Resources */,
 				746A4D8D1774A46000C7CE80 /* MainStoryboard.storyboard in Resources */,
-				746A4DB11774A5AB00C7CE80 /* movie.mp4 in Resources */,
+				746A4DB11774A5AB00C7CE80 /* movie0.mp4 in Resources */,
+				71CA9BE517D9A83E0094CFC9 /* movie6.mp4 in Resources */,
+				71CA9BE617D9A83E0094CFC9 /* movie5.mp4 in Resources */,
+				71CA9BE817D9A83E0094CFC9 /* movie3.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				746A4DA21774A46000C7CE80 /* InfoPlist.strings in Resources */,
-				746A4DB21774A5AB00C7CE80 /* movie.mp4 in Resources */,
+				746A4DB21774A5AB00C7CE80 /* movie0.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +334,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				746A4D801774A46000C7CE80 /* main.m in Sources */,
+				7102019617DA375B005FDE3E /* AddURLViewController.m in Sources */,
+				71CA9BF117D9C2C10094CFC9 /* RemoteTableViewController.m in Sources */,
 				746A4D841774A46000C7CE80 /* ParagonAppDelegate.m in Sources */,
 				746A4D901774A46000C7CE80 /* ParagonViewController.m in Sources */,
+				71CA9BDE17D9A7E80094CFC9 /* LocalTableViewController.m in Sources */,
+				71CA9BEE17D9AC640094CFC9 /* ParagonNaviViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,6 +520,7 @@
 				746A4DAA1774A46000C7CE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		746A4DAB1774A46000C7CE80 /* Build configuration list for PBXNativeTarget "VideoPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +529,7 @@
 				746A4DAD1774A46000C7CE80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
