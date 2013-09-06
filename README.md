@@ -6,7 +6,7 @@ Play music and video from local and remote.
 ==========================================================================================
 MusicPlayer App: The app uses AVFoundation.framwork. We create an AVPlayer object to handle the controls of music playback.
 
-Create an AVPlayer object.\r\n
+Create an AVPlayer object.
 <code>self.audioPlayer = [[AVPlayer alloc] init];</code>
 
 Prepare an local music URL.
@@ -26,8 +26,8 @@ VideoPlayer App: The app uses MediaPlayer.framwork. We create a MPMoviePlayerCon
 Create a MPMoivePLayerController with the content URL.
 <code>moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:url];</code>
 
-Add moviePlayer to the main view as a subView.\r\n
+Add moviePlayer to the main view as a subView.
 <code>[self.view addSubview:moviePlayer.view];</code>
 
-Then set to fullScreen with an animation.\r\n
+Then set to fullScreen with an animation.
 <code>[moviePlayer setFullscreen:YES animated:YES];</code>
