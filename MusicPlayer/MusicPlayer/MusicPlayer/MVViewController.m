@@ -79,20 +79,14 @@
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 //  return self.songsList.count;
-    return 2;
+    return 4;
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *cellIdentifier = @"MusicCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
-    if (indexPath.row == 0) {
-          cell.textLabel.text = @"Local music";
-    }else if(indexPath.row == 1){
-      cell.textLabel.text = @"Remote music";
-    }
-  else
-      cell = nil;
-  return cell;
+    cell.textLabel.text = [NSString stringWithFormat:@"music%d",indexPath.row];
+    return cell;
 }
 
 #pragma mark - TableView Delegate Methods
@@ -100,18 +94,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
   [self.audioPlayer pause];
     static NSString *cellIdentifier = @"MusicCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
     AVPlayerItem *currentItem;
     NSString *songTitle;
-    if(indexPath.row == 0){
-        NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"]];
-        currentItem = [AVPlayerItem playerItemWithURL:url];
-        songTitle = @"Local music";
-    }else{
-    currentItem = [AVPlayerItem playerItemWithURL:[NSURL URLWithString:@"http://music.baidu.com/data/music/file?link=http://zhangmenshiting.baidu.com/data2/music/41445605/14959061190800128.mp3?xcode=1c491492e7c8e41ac6c9ddd5d9424975f875b61110668c14"]];
-        songTitle = @"Remote music";
-    }
-  
+    NSString *musicPath = [NSString stringWithFormat:@"music%d",indexPath.row];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:musicPath ofType:@"mp3"]];
+    currentItem = [AVPlayerItem playerItemWithURL:url];
+    songTitle = musicPath;
   [self.audioPlayer replaceCurrentItemWithPlayerItem:currentItem];
   [self.audioPlayer play];
   [self.togglePlayPause setSelected:YES];

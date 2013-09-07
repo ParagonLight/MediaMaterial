@@ -23,7 +23,14 @@
 		1855A31117403381002EB2C7 /* play_button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1855A30917403381002EB2C7 /* play_button@2x.png */; };
 		186A8E8D17422FD300DFAB74 /* MVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 186A8E8C17422FD300DFAB74 /* MVViewController.m */; };
 		186A8E8F1742366B00DFAB74 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 186A8E8E1742366B00DFAB74 /* AVFoundation.framework */; };
-		740F3B881774B17B0048A83C /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 740F3B871774B17B0048A83C /* music.mp3 */; };
+		71C2A9E317DB0FDD00D59B86 /* RemoteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2A9E217DB0FDD00D59B86 /* RemoteViewController.m */; };
+		71C2A9E817DB18EA00D59B86 /* music1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71C2A9E517DB18EA00D59B86 /* music1.mp3 */; };
+		71C2A9E917DB18EA00D59B86 /* music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71C2A9E617DB18EA00D59B86 /* music2.mp3 */; };
+		71C2A9EA17DB18EA00D59B86 /* music3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71C2A9E717DB18EA00D59B86 /* music3.mp3 */; };
+		71C2A9EC17DB1B1600D59B86 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C2A9EB17DB1B1600D59B86 /* CoreData.framework */; };
+		71C2A9EF17DB1BB800D59B86 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71C2A9ED17DB1BB800D59B86 /* Model.xcdatamodeld */; };
+		71C2A9F217DB1E1000D59B86 /* AddURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71C2A9F117DB1E1000D59B86 /* AddURLViewController.m */; };
+		740F3B881774B17B0048A83C /* music0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 740F3B871774B17B0048A83C /* music0.mp3 */; };
 		747EC08F1778348D00E10214 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747EC08E1778348D00E10214 /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +56,16 @@
 		186A8E8B17422FD300DFAB74 /* MVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVViewController.h; sourceTree = "<group>"; };
 		186A8E8C17422FD300DFAB74 /* MVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVViewController.m; sourceTree = "<group>"; };
 		186A8E8E1742366B00DFAB74 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		740F3B871774B17B0048A83C /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		71C2A9E117DB0FDD00D59B86 /* RemoteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteViewController.h; sourceTree = "<group>"; };
+		71C2A9E217DB0FDD00D59B86 /* RemoteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteViewController.m; sourceTree = "<group>"; };
+		71C2A9E517DB18EA00D59B86 /* music1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music1.mp3; sourceTree = "<group>"; };
+		71C2A9E617DB18EA00D59B86 /* music2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music2.mp3; sourceTree = "<group>"; };
+		71C2A9E717DB18EA00D59B86 /* music3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music3.mp3; sourceTree = "<group>"; };
+		71C2A9EB17DB1B1600D59B86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		71C2A9EE17DB1BB800D59B86 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		71C2A9F017DB1E1000D59B86 /* AddURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddURLViewController.h; sourceTree = "<group>"; };
+		71C2A9F117DB1E1000D59B86 /* AddURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddURLViewController.m; sourceTree = "<group>"; };
+		740F3B871774B17B0048A83C /* music0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music0.mp3; sourceTree = "<group>"; };
 		747EC08E1778348D00E10214 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C2A9EC17DB1B1600D59B86 /* CoreData.framework in Frameworks */,
 				747EC08F1778348D00E10214 /* CoreMedia.framework in Frameworks */,
 				186A8E8F1742366B00DFAB74 /* AVFoundation.framework in Frameworks */,
 				1855A2E217401ECE002EB2C7 /* UIKit.framework in Frameworks */,
@@ -91,6 +108,7 @@
 		1855A2E017401ECE002EB2C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71C2A9EB17DB1B1600D59B86 /* CoreData.framework */,
 				1855A2E117401ECE002EB2C7 /* UIKit.framework */,
 				1855A2E317401ECE002EB2C7 /* Foundation.framework */,
 				1855A2E517401ECE002EB2C7 /* CoreGraphics.framework */,
@@ -101,13 +119,18 @@
 		1855A2E717401ECE002EB2C7 /* MusicPlayer */ = {
 			isa = PBXGroup;
 			children = (
-				740F3B871774B17B0048A83C /* music.mp3 */,
+				71C2A9F017DB1E1000D59B86 /* AddURLViewController.h */,
+				71C2A9F117DB1E1000D59B86 /* AddURLViewController.m */,
+				71C2A9E417DB189000D59B86 /* Resources */,
 				1855A2F017401ECE002EB2C7 /* MPAppDelegate.h */,
 				1855A2F117401ECE002EB2C7 /* MPAppDelegate.m */,
 				1855A2F917401ECE002EB2C7 /* MainStoryboard.storyboard */,
 				186A8E8B17422FD300DFAB74 /* MVViewController.h */,
 				186A8E8C17422FD300DFAB74 /* MVViewController.m */,
+				71C2A9E117DB0FDD00D59B86 /* RemoteViewController.h */,
+				71C2A9E217DB0FDD00D59B86 /* RemoteViewController.m */,
 				1855A2E817401ECE002EB2C7 /* Supporting Files */,
+				71C2A9ED17DB1BB800D59B86 /* Model.xcdatamodeld */,
 			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
@@ -128,6 +151,17 @@
 				1855A2F717401ECE002EB2C7 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71C2A9E417DB189000D59B86 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				740F3B871774B17B0048A83C /* music0.mp3 */,
+				71C2A9E517DB18EA00D59B86 /* music1.mp3 */,
+				71C2A9E617DB18EA00D59B86 /* music2.mp3 */,
+				71C2A9E717DB18EA00D59B86 /* music3.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,16 +216,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C2A9E817DB18EA00D59B86 /* music1.mp3 in Resources */,
 				1855A2EC17401ECE002EB2C7 /* InfoPlist.strings in Resources */,
 				1855A2F417401ECE002EB2C7 /* Default.png in Resources */,
 				1855A2F617401ECE002EB2C7 /* Default@2x.png in Resources */,
 				1855A2F817401ECE002EB2C7 /* Default-568h@2x.png in Resources */,
 				1855A2FB17401ECE002EB2C7 /* MainStoryboard.storyboard in Resources */,
+				71C2A9E917DB18EA00D59B86 /* music2.mp3 in Resources */,
+				71C2A9EA17DB18EA00D59B86 /* music3.mp3 in Resources */,
 				1855A30E17403381002EB2C7 /* pause_button.png in Resources */,
 				1855A30F17403381002EB2C7 /* pause_button@2x.png in Resources */,
 				1855A31017403381002EB2C7 /* play_button.png in Resources */,
 				1855A31117403381002EB2C7 /* play_button@2x.png in Resources */,
-				740F3B881774B17B0048A83C /* music.mp3 in Resources */,
+				740F3B881774B17B0048A83C /* music0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +239,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C2A9E317DB0FDD00D59B86 /* RemoteViewController.m in Sources */,
 				1855A2EE17401ECE002EB2C7 /* main.m in Sources */,
+				71C2A9EF17DB1BB800D59B86 /* Model.xcdatamodeld in Sources */,
 				1855A2F217401ECE002EB2C7 /* MPAppDelegate.m in Sources */,
+				71C2A9F217DB1E1000D59B86 /* AddURLViewController.m in Sources */,
 				186A8E8D17422FD300DFAB74 /* MVViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -330,6 +370,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71C2A9ED17DB1BB800D59B86 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71C2A9EE17DB1BB800D59B86 /* Model.xcdatamodel */,
+			);
+			currentVersion = 71C2A9EE17DB1BB800D59B86 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1855A2D617401ECE002EB2C7 /* Project object */;
 }
