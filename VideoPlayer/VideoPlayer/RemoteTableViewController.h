@@ -9,13 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 #import "AddURLViewController.h"
-
-@interface RemoteTableViewController : UITableViewController<addURLDelegate>{
+#import "ParagonAppDelegate.h"
+@interface RemoteTableViewController : UITableViewController<addURLDelegate,NSFetchedResultsControllerDelegate>{
     MPMoviePlayerController *moviePlayer;
 }
 
 @property (strong, nonatomic) MPMoviePlayerController *moviePlayer;
 @property (strong, nonatomic) NSMutableArray *data;
+@property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
+@property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 -(IBAction)addUrl:(id)sender;
 

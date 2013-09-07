@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7102019617DA375B005FDE3E /* AddURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7102019517DA375B005FDE3E /* AddURLViewController.m */; };
+		71C2A99117DAF59E00D59B86 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71C2A98F17DAF59E00D59B86 /* Model.xcdatamodeld */; };
+		71C2A99317DAF68D00D59B86 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71C2A99217DAF68D00D59B86 /* CoreData.framework */; };
 		71CA9BDE17D9A7E80094CFC9 /* LocalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71CA9BDD17D9A7E80094CFC9 /* LocalTableViewController.m */; };
 		71CA9BE517D9A83E0094CFC9 /* movie6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BDF17D9A83E0094CFC9 /* movie6.mp4 */; };
 		71CA9BE617D9A83E0094CFC9 /* movie5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 71CA9BE017D9A83E0094CFC9 /* movie5.mp4 */; };
@@ -51,6 +53,8 @@
 /* Begin PBXFileReference section */
 		7102019417DA375B005FDE3E /* AddURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddURLViewController.h; sourceTree = "<group>"; };
 		7102019517DA375B005FDE3E /* AddURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddURLViewController.m; sourceTree = "<group>"; };
+		71C2A99017DAF59E00D59B86 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		71C2A99217DAF68D00D59B86 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		71CA9BDC17D9A7E80094CFC9 /* LocalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalTableViewController.h; sourceTree = "<group>"; };
 		71CA9BDD17D9A7E80094CFC9 /* LocalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalTableViewController.m; sourceTree = "<group>"; };
 		71CA9BDF17D9A83E0094CFC9 /* movie6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = movie6.mp4; sourceTree = "<group>"; };
@@ -94,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71C2A99317DAF68D00D59B86 /* CoreData.framework in Frameworks */,
 				746A4DAF1774A49F00C7CE80 /* MediaPlayer.framework in Frameworks */,
 				746A4D741774A46000C7CE80 /* UIKit.framework in Frameworks */,
 				746A4D761774A46000C7CE80 /* Foundation.framework in Frameworks */,
@@ -151,6 +156,7 @@
 		746A4D721774A45F00C7CE80 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				71C2A99217DAF68D00D59B86 /* CoreData.framework */,
 				746A4D731774A45F00C7CE80 /* UIKit.framework */,
 				746A4D751774A46000C7CE80 /* Foundation.framework */,
 				746A4D771774A46000C7CE80 /* CoreGraphics.framework */,
@@ -162,6 +168,7 @@
 		746A4D791774A46000C7CE80 /* VideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				71C2A98F17DAF59E00D59B86 /* Model.xcdatamodeld */,
 				71CA9BEB17D9A88F0094CFC9 /* Media Sources */,
 				71CA9BEC17D9AC640094CFC9 /* ParagonNaviViewController.h */,
 				71CA9BED17D9AC640094CFC9 /* ParagonNaviViewController.m */,
@@ -336,6 +343,7 @@
 				746A4D801774A46000C7CE80 /* main.m in Sources */,
 				7102019617DA375B005FDE3E /* AddURLViewController.m in Sources */,
 				71CA9BF117D9C2C10094CFC9 /* RemoteTableViewController.m in Sources */,
+				71C2A99117DAF59E00D59B86 /* Model.xcdatamodeld in Sources */,
 				746A4D841774A46000C7CE80 /* ParagonAppDelegate.m in Sources */,
 				746A4D901774A46000C7CE80 /* ParagonViewController.m in Sources */,
 				71CA9BDE17D9A7E80094CFC9 /* LocalTableViewController.m in Sources */,
@@ -532,6 +540,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71C2A98F17DAF59E00D59B86 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71C2A99017DAF59E00D59B86 /* Model.xcdatamodel */,
+			);
+			currentVersion = 71C2A99017DAF59E00D59B86 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 746A4D681774A45F00C7CE80 /* Project object */;
 }
