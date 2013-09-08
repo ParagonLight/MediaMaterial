@@ -28,6 +28,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    _urlField.delegate = self;
+    _titleField.delegate = self;
+    [_urlField setReturnKeyType:UIReturnKeyDone];
 	// Do any additional setup after loading the view.
 }
 
@@ -48,4 +51,17 @@
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [_titleField resignFirstResponder];
+    return YES;
+}
+
+-(BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    if([text isEqualToString:@"\n"]) {
+        [textView resignFirstResponder];
+        return NO;
+    }
+    
+    return YES;
+}
 @end

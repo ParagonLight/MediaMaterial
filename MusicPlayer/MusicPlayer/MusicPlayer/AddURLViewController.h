@@ -14,12 +14,12 @@
 
 @end
 
-@interface AddURLViewController : UIViewController{
+@interface AddURLViewController : UIViewController<UITextViewDelegate, UITextFieldDelegate>{
     id <addURLDelegate> delegate;
 }
 @property (nonatomic, strong) id <addURLDelegate> delegate;
 @property (nonatomic, strong) IBOutlet UITextField *titleField;
-@property (nonatomic, strong) IBOutlet UITextField *urlField;
+@property (nonatomic, strong) IBOutlet UITextView *urlField;
 -(IBAction)cancel;
 -(IBAction)add;
 

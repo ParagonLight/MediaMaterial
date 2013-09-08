@@ -113,41 +113,37 @@
         <!--AddURL View Controller-->
         <scene sceneID="CYv-el-JtT">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1L-17-tuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xQJ-GN-Iga" customClass="AddURLViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UcM-aj-GVi">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RJW-iO-QOb">
-                                <rect key="frame" x="59" y="90" width="46" height="21"/>
+                                <rect key="frame" x="44" y="34" width="46" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="URL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ikh-aF-ehd">
-                                <rect key="frame" x="59" y="147" width="34" height="21"/>
+                                <rect key="frame" x="44" y="101" width="34" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BqM-Q1-XKl">
-                                <rect key="frame" x="131" y="86" width="97" height="30"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type the name here" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BqM-Q1-XKl">
+                                <rect key="frame" x="44" y="63" width="232" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="97" id="UnQ-k3-scV"/>
+                                    <constraint firstAttribute="width" constant="232" id="1mI-b3-bLm"/>
+                                    <constraint firstAttribute="height" constant="30" id="pAV-kR-Giy"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="https://d396qusza40orc.cloudfront.net/startup/source_videos%2Flecture2-part1-your-first-webapp.mp4" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yak-WH-OBv">
-                                <rect key="frame" x="131" y="138" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="alphabet" returnKeyType="done"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8w0-3B-o0F">
-                                <rect key="frame" x="59" y="197" width="72" height="44"/>
+                                <rect key="frame" x="40" y="233" width="72" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Cancel">
@@ -162,10 +158,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0r-rt-k2y">
-                                <rect key="frame" x="190" y="197" width="65" height="44"/>
+                                <rect key="frame" x="208" y="233" width="72" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="65" id="myM-FF-Yr3"/>
+                                    <constraint firstAttribute="width" constant="72" id="FNX-6C-eKE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Add">
@@ -179,30 +175,39 @@
                                     <action selector="add" destination="xQJ-GN-Iga" eventType="touchUpInside" id="4It-tE-6mt"/>
                                 </connections>
                             </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="https://d396qusza40orc.cloudfront.net/startup/source_videos%2Flecture2-part1-your-first-webapp.mp4" translatesAutoresizingMaskIntoConstraints="NO" id="tOv-es-4Qh">
+                                <rect key="frame" x="40" y="130" width="240" height="86"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="W7A-Zw-bTQ"/>
+                                    <constraint firstAttribute="width" constant="240" id="haf-ow-yaA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="URL" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="yak-WH-OBv" firstAttribute="top" secondItem="UcM-aj-GVi" secondAttribute="top" constant="138" id="0xv-0b-vGJ"/>
-                            <constraint firstItem="8w0-3B-o0F" firstAttribute="leading" secondItem="ikh-aF-ehd" secondAttribute="leading" type="default" id="48L-0J-3MW"/>
-                            <constraint firstItem="BqM-Q1-XKl" firstAttribute="leading" secondItem="UcM-aj-GVi" secondAttribute="leading" constant="131" id="IzL-Q6-Tg2"/>
-                            <constraint firstItem="yak-WH-OBv" firstAttribute="trailing" secondItem="BqM-Q1-XKl" secondAttribute="trailing" type="default" id="KCy-z4-fyQ"/>
-                            <constraint firstItem="RJW-iO-QOb" firstAttribute="leading" secondItem="UcM-aj-GVi" secondAttribute="leading" constant="59" id="KLT-IR-vSO"/>
-                            <constraint firstItem="8w0-3B-o0F" firstAttribute="top" secondItem="UcM-aj-GVi" secondAttribute="top" constant="197" id="LA1-Yg-XHv"/>
-                            <constraint firstAttribute="trailing" secondItem="Q0r-rt-k2y" secondAttribute="trailing" constant="65" id="Onw-rv-Cvn"/>
-                            <constraint firstItem="Q0r-rt-k2y" firstAttribute="baseline" secondItem="8w0-3B-o0F" secondAttribute="baseline" type="user" id="Pwo-1R-4cY"/>
-                            <constraint firstItem="yak-WH-OBv" firstAttribute="bottom" secondItem="ikh-aF-ehd" secondAttribute="bottom" type="default" id="Vdj-py-D4f"/>
-                            <constraint firstItem="yak-WH-OBv" firstAttribute="leading" secondItem="BqM-Q1-XKl" secondAttribute="leading" type="default" id="Yan-tU-eLy"/>
-                            <constraint firstItem="BqM-Q1-XKl" firstAttribute="top" secondItem="UcM-aj-GVi" secondAttribute="top" constant="86" id="n0N-Lx-CNa"/>
-                            <constraint firstItem="ikh-aF-ehd" firstAttribute="leading" secondItem="RJW-iO-QOb" secondAttribute="leading" type="default" id="ndB-bz-juF"/>
-                            <constraint firstItem="RJW-iO-QOb" firstAttribute="top" secondItem="UcM-aj-GVi" secondAttribute="top" constant="90" id="qYN-wS-UC4"/>
+                            <constraint firstItem="8w0-3B-o0F" firstAttribute="top" secondItem="UcM-aj-GVi" secondAttribute="top" constant="233" id="1Zp-u6-d53"/>
+                            <constraint firstItem="BqM-Q1-XKl" firstAttribute="top" secondItem="RJW-iO-QOb" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="5JR-5E-u5p"/>
+                            <constraint firstItem="Q0r-rt-k2y" firstAttribute="trailing" secondItem="tOv-es-4Qh" secondAttribute="trailing" type="default" id="7mU-4u-qsv"/>
+                            <constraint firstItem="BqM-Q1-XKl" firstAttribute="centerX" secondItem="UcM-aj-GVi" secondAttribute="centerX" type="default" id="8vW-Vg-u2Y"/>
+                            <constraint firstItem="tOv-es-4Qh" firstAttribute="top" secondItem="ikh-aF-ehd" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="CDQ-9R-NdH"/>
+                            <constraint firstItem="8w0-3B-o0F" firstAttribute="leading" secondItem="tOv-es-4Qh" secondAttribute="leading" type="default" id="CsL-fU-8ET"/>
+                            <constraint firstItem="RJW-iO-QOb" firstAttribute="leading" secondItem="BqM-Q1-XKl" secondAttribute="leading" type="default" id="OXb-9x-kil"/>
+                            <constraint firstItem="RJW-iO-QOb" firstAttribute="top" secondItem="UcM-aj-GVi" secondAttribute="top" constant="34" id="SBL-W4-Z0t"/>
+                            <constraint firstItem="Q0r-rt-k2y" firstAttribute="baseline" secondItem="8w0-3B-o0F" secondAttribute="baseline" type="default" id="baD-xs-Zgh"/>
+                            <constraint firstItem="ikh-aF-ehd" firstAttribute="top" secondItem="BqM-Q1-XKl" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="bmB-b4-JQC"/>
+                            <constraint firstItem="ikh-aF-ehd" firstAttribute="leading" secondItem="BqM-Q1-XKl" secondAttribute="leading" type="default" id="oKb-4h-OBW"/>
+                            <constraint firstItem="tOv-es-4Qh" firstAttribute="centerX" secondItem="BqM-Q1-XKl" secondAttribute="centerX" type="default" id="yCu-5E-4M2"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="titleField" destination="BqM-Q1-XKl" id="9to-sK-knG"/>
-                        <outlet property="urlField" destination="yak-WH-OBv" id="ucp-jW-i7t"/>
+                        <outlet property="urlField" destination="tOv-es-4Qh" id="lEO-dK-uH2"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1L-17-tuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="364" y="752"/>
         </scene>
