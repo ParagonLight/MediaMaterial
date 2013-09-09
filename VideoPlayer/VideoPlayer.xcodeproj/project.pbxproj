@@ -456,10 +456,12 @@
 		746A4DA91774A46000C7CE80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoPlayer/VideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VideoPlayer/VideoPlayer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E805B194-5184-43E1-941B-FB9D4A08B52D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -467,10 +469,12 @@
 		746A4DAA1774A46000C7CE80 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VideoPlayer/VideoPlayer-Prefix.pch";
 				INFOPLIST_FILE = "VideoPlayer/VideoPlayer-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "E805B194-5184-43E1-941B-FB9D4A08B52D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -50,8 +50,8 @@
     NSString *songTitle = @"Local music";
     
     [self.audioPlayer replaceCurrentItemWithPlayerItem:currentItem];
-    [self.audioPlayer play];
-    [self.togglePlayPause setSelected:YES];
+//    [self.audioPlayer play];
+//    [self.togglePlayPause setSelected:YES];
     self.songName.text = songTitle;
     [self.sliderOutlet setMaximumValue:self.audioPlayer.currentItem.duration.value/self.audioPlayer.currentItem.duration.timescale];
   [self configurePlayer];

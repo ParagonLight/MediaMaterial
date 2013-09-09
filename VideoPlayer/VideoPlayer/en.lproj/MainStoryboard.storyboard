@@ -99,7 +99,7 @@
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Item" id="sTo-U0-m3G"/>
                     <navigationItem key="navigationItem" title="Remote" id="B8w-U6-sbP">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="2eU-vY-DzH">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="2eU-vY-DzH" userLabel="add">
                             <connections>
                                 <segue destination="xQJ-GN-Iga" kind="modal" identifier="add" id="aKj-G5-gE3"/>
                             </connections>
@@ -113,7 +113,6 @@
         <!--AddURL View Controller-->
         <scene sceneID="CYv-el-JtT">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1L-17-tuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="xQJ-GN-Iga" customClass="AddURLViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UcM-aj-GVi">
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
@@ -175,7 +174,7 @@
                                     <action selector="add" destination="xQJ-GN-Iga" eventType="touchUpInside" id="4It-tE-6mt"/>
                                 </connections>
                             </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="https://d396qusza40orc.cloudfront.net/startup/source_videos%2Flecture2-part1-your-first-webapp.mp4" translatesAutoresizingMaskIntoConstraints="NO" id="tOv-es-4Qh">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tOv-es-4Qh">
                                 <rect key="frame" x="40" y="130" width="240" height="86"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -208,6 +207,7 @@
                         <outlet property="urlField" destination="tOv-es-4Qh" id="lEO-dK-uH2"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q1L-17-tuD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="364" y="752"/>
         </scene>
