@@ -45,7 +45,7 @@
   //4
     
 
-    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"music" ofType:@"mp3"]];
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"music0" ofType:@"mp3"]];
     AVPlayerItem * currentItem = [AVPlayerItem playerItemWithURL:url];
     NSString *songTitle = @"Local music";
     
